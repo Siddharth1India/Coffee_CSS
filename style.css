@@ -1,0 +1,43 @@
+
+body {
+    background: #007580;
+}
+p{
+    font-size: 8px;
+    margin-top: 45%;
+    margin-left: 23%;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bolder;
+} 
+.coffee{
+    height: 50px;
+    width:42px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 0 0 8px 8px;
+}
+.coffee::after {
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 24px;
+    box-sizing: border-box;
+    border: 6px solid white;
+    right: -15px;
+    top: 4px;
+    border-radius: 0 2px 20px 0;
+  }
+  .coffee::before{
+      content: "";
+      position: absolute;
+      height: 35px;
+      width: 32px;
+      border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+      background: white;
+      top: -30px;
+      left: 6px;
+      filter: blur(10px);
+      opacity: 80%;
+  }
